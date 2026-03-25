@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitish Kumar | Software Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Nitish Kumar<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education & Training</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <p class="greeting">Hello, world! I am</p>
+            <h1 class="name">Nitish Kumar</h1>
+            <h2 class="role" style="min-height: 48px;"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="hero-desc">Passionate about problem-solving, software development, and data analysis. Building modern solutions with code.</p>
+            <div class="hero-btn-group">
+                <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="btn btn-outline" download>Download CV <i class="fas fa-download"></i></a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:nitishkumar870782@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-graphics fade-in-delayed">
+            <!-- Decorative code/design element -->
+            <div class="code-window glass">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="window-body">
+                    <pre><code><span class="comment">// Developer Setup</span>
+<span class="keyword">const</span> developer = {
+  <span class="property">name</span>: <span class="string">"Nitish Kumar"</span>,
+  <span class="property">education</span>: <span class="string">"B.Tech CSE"</span>,
+  <span class="property">university</span>: <span class="string">"LPU, Punjab"</span>,
+  <span class="property">passions</span>: [<span class="string">"Problem Solving"</span>, 
+             <span class="string">"Software Dev"</span>, 
+             <span class="string">"Data Analysis"</span>],
+  <span class="property">status</span>: <span class="string">"Ready to build"</span>
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-container glass animate-on-scroll">
+            <div class="about-image">
+                <img src="profile.png" alt="Nitish Kumar" class="profile-img">
+            </div>
+            <div class="about-text">
+                <p>Hi, I'm <strong>Nitish Kumar</strong>, a B.Tech Computer Science student at Lovely Professional University, Punjab.</p>
+                <p>I have strong foundational knowledge in programming languages like Java, C++, and SQL, along with web technologies including HTML, CSS, and JavaScript. I enjoy bringing ideas to life through software.</p>
+                <p>I am highly passionate about problem-solving, creating efficient software architecture, and diving deep into data analysis to find actionable insights. Always learning, adaptable, and a team player.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-category glass animate-on-scroll">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>Programming</h3>
+                <div class="tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">SQL</span>
+                </div>
+            </div>
+            
+            <!-- Web Technologies -->
+            <div class="skill-category glass animate-on-scroll" style="transition-delay: 0.1s">
+                <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                <h3>Web Dev</h3>
+                <div class="tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category glass animate-on-scroll" style="transition-delay: 0.2s">
+                <div class="skill-icon"><i class="fas fa-wrench"></i></div>
+                <h3>Tools</h3>
+                <div class="tags">
+                    <span class="tag">Tableau</span>
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Excel</span>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category glass animate-on-scroll" style="transition-delay: 0.3s">
+                <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Soft Skills</h3>
+                <div class="tags">
+                    <span class="tag">Problem-solving</span>
+                    <span class="tag">Teamwork</span>
+                    <span class="tag">Adaptability</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass animate-on-scroll">
+                <div class="project-icon-wrapper">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+                <h3>Library Management System</h3>
+                <p>A comprehensive system built utilizing Object-Oriented Programming principles including classes, objects, and encapsulation.</p>
+                <ul class="project-features">
+                    <li><i class="fas fa-check"></i> Add & delete books</li>
+                    <li><i class="fas fa-check"></i> Search & edit book info</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">OOP</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass animate-on-scroll" style="transition-delay: 0.1s">
+                <div class="project-icon-wrapper">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>A modern, premium developer portfolio highlighting skills, experience, and projects with a stunning dark theme UI.</p>
+                <ul class="project-features">
+                    <li><i class="fas fa-check"></i> Responsive design</li>
+                    <li><i class="fas fa-check"></i> Smooth navigation & Animations</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass animate-on-scroll" style="transition-delay: 0.2s">
+                <div class="project-icon-wrapper">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Sales Dashboard</h3>
+                <p>An interactive BI dashboard providing actionable insights by visualizing complex datasets using beautiful charts and KPIs.</p>
+                <ul class="project-features">
+                    <li><i class="fas fa-check"></i> Real-time KPIs</li>
+                    <li><i class="fas fa-check"></i> Sales trends & performance</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Data Viz</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Training Section -->
+    <section id="education" class="section">
+        <h2 class="section-title">Education & <span class="highlight">Training</span></h2>
+        <div class="timeline-container">
+            
+            <!-- Education Box -->
+            <div class="timeline-area glass animate-on-scroll">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline-item">
+                    <h4>B.Tech in Computer Science & Engineering</h4>
+                    <span class="date">Present</span>
+                    <p>Lovely Professional University (LPU), Punjab</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Intermediate</h4>
+                    <span class="date">Score: 63.4%</span>
+                </div>
+                <div class="timeline-item">
+                    <h4>Matriculation</h4>
+                    <span class="date">Score: 84.2%</span>
+                </div>
+            </div>
+
+            <!-- Certs & Training Box -->
+            <div class="timeline-area glass animate-on-scroll" style="transition-delay: 0.2s">
+                <h3><i class="fas fa-certificate"></i> Training & Certifications</h3>
+                <div class="timeline-item">
+                    <h4>Udemy Course Certification 1</h4>
+                    <p><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f811bc17-e3ee-40ba-8617-7737b390c2c7.pdf" target="_blank" class="highlight" style="display: inline-flex; align-items: center; gap: 5px; text-decoration: underline; margin-top: 5px;">View Certificate <i class="fas fa-external-link-alt" style="font-size: 0.8rem;"></i></a></p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Udemy Course Certification 2</h4>
+                    <p><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-84c26ace-952b-42d9-a147-03001c4ab80f.pdf" target="_blank" class="highlight" style="display: inline-flex; align-items: center; gap: 5px; text-decoration: underline; margin-top: 5px;">View Certificate <i class="fas fa-external-link-alt" style="font-size: 0.8rem;"></i></a></p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Data Analysis with Tableau</h4>
+                    <p>Coursera</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Data Structures & Algorithms Training</h4>
+                    <p>Lovely Professional University</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Java Programming Course</h4>
+                    <p>Covered OOP concepts, multithreading, collections, and file handling in-depth.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+        <div class="contact-container glass animate-on-scroll">
+            <div class="contact-info">
+                <h3>Let's talk about everything!</h3>
+                <p>Don't like forms? Send me an email directly or reach out on my socials.</p>
+                
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:nitishkumar870782@gmail.com">nitishkumar870782@gmail.com</a>
+                    </div>
+                    <div class="method">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+918707826636">+91 8707826636</a>
+                    </div>
+                </div>
+                
+                <div class="social-links mt-4">
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nitish Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Vanilla Tilt JS for 3D UI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
